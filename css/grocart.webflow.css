@@ -1,0 +1,351 @@
+.body {
+  font-family: National, sans-serif;
+  font-size: 16px;
+}
+
+.div-block {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  width: 90%;
+  margin-right: auto;
+  margin-left: auto;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.navbar {
+  background-color: transparent;
+}
+
+.nav-link {
+  color: #0a8080;
+  font-weight: 600;
+  letter-spacing: 1px;
+}
+
+.div-block-2 {
+  display: -ms-grid;
+  display: grid;
+  width: 100%;
+  margin-right: auto;
+  margin-left: auto;
+  grid-auto-columns: 1fr;
+  grid-column-gap: 0px;
+  grid-row-gap: 16px;
+  -ms-grid-columns: 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr;
+  -ms-grid-rows: auto;
+  grid-template-rows: auto;
+}
+
+.div-block-3 {
+  background-image: url('../images/business.svg');
+  background-position: 50% 50%;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.div-block-4 {
+  background-image: url('../images/driver.svg');
+  background-position: 50% 50%;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.div-block-5 {
+  background-image: url('../images/shopper.svg');
+  background-position: 50% 50%;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.div-block-6 {
+  display: -ms-grid;
+  display: grid;
+  width: 90%;
+  margin-right: auto;
+  margin-left: auto;
+  grid-auto-columns: 1fr;
+  grid-column-gap: 0px;
+  grid-row-gap: 16px;
+  -ms-grid-columns: 2.75fr 1fr;
+  grid-template-columns: 2.75fr 1fr;
+  -ms-grid-rows: auto;
+  grid-template-rows: auto;
+}
+
+.paragraph {
+  margin-bottom: 0px;
+  color: #999;
+}
+
+.div-block-7 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+.image {
+  margin-right: 0px;
+}
+
+.div-block-8 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.div-block-9 {
+  width: 20px;
+}
+
+.div-block-10 {
+  width: 4px;
+}
+
+.link-block {
+  color: #999;
+  text-decoration: none;
+}
+
+.link-block:hover {
+  color: #0a8080;
+}
+
+.heading {
+  margin-bottom: 0px;
+  color: hsla(0, 0%, 100%, 0.8);
+  font-size: 18px;
+  font-weight: 600;
+  letter-spacing: 1px;
+}
+
+.heading-2 {
+  margin-top: 0px;
+  color: #fff;
+  font-size: 32px;
+  line-height: 120%;
+}
+
+.paragraph-2 {
+  margin-bottom: 20px;
+  color: hsla(0, 0%, 100%, 0.8);
+  font-size: 18px;
+  line-height: 150%;
+  font-weight: 400;
+}
+
+.button {
+  border-radius: 5px;
+  background-color: #f45d48;
+  font-weight: 600;
+  letter-spacing: 1px;
+}
+
+.button:hover {
+  background-color: rgba(244, 93, 72, 0.94);
+}
+
+.button.new {
+  background-color: #fff;
+  color: #f45d48;
+}
+
+.button.new:hover {
+  background-color: hsla(0, 0%, 100%, 0.94);
+}
+
+.div-block-11 {
+  margin: 440px 40px 80px;
+}
+
+.body-2 {
+  font-family: National, sans-serif;
+}
+
+.section {
+  width: 30%;
+  margin-right: auto;
+  margin-left: auto;
+  padding-top: 200px;
+  padding-bottom: 220px;
+}
+
+.form-block {
+  margin-top: 20px;
+}
+
+.submit-button {
+  margin-top: 10px;
+  border-radius: 5px;
+  background-color: #0a8080;
+  font-size: 16px;
+  font-weight: 600;
+  letter-spacing: 1px;
+}
+
+.submit-button:hover {
+  background-color: rgba(10, 128, 128, 0.94);
+}
+
+.text-field {
+  margin-bottom: 20px;
+  border: 1px solid #dfe1e1;
+  border-radius: 5px;
+  color: #293333;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.text-field:focus {
+  border-color: #293333;
+}
+
+.text-field::-webkit-input-placeholder {
+  color: #b1b6b7;
+}
+
+.text-field:-ms-input-placeholder {
+  color: #b1b6b7;
+}
+
+.text-field::-ms-input-placeholder {
+  color: #b1b6b7;
+}
+
+.text-field::placeholder {
+  color: #b1b6b7;
+}
+
+.field-label {
+  color: #293333;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.heading-3 {
+  margin-bottom: 0px;
+  color: #293333;
+  font-size: 24px;
+}
+
+.success-message {
+  border: 1px solid #dfe1e1;
+  border-radius: 5px;
+  background-color: transparent;
+}
+
+.text-block {
+  color: #545e5f;
+  font-size: 16px;
+  line-height: 150%;
+}
+
+.text-block-2 {
+  font-size: 16px;
+  line-height: 150%;
+}
+
+.error-message {
+  border: 1px solid #f45d48;
+  border-radius: 5px;
+  background-color: transparent;
+  color: #f45d48;
+}
+
+@media screen and (max-width: 991px) {
+  .nav-link {
+    background-color: #fff;
+    text-align: center;
+  }
+  .section {
+    width: 50%;
+  }
+  .menu-button {
+    color: #fff;
+  }
+  .menu-button.w--open {
+    background-color: #fff;
+  }
+  .icon {
+    color: #293333;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .div-block-2 {
+    grid-row-gap: 0px;
+    -ms-grid-columns: 1fr;
+    grid-template-columns: 1fr;
+  }
+  .section {
+    width: 80%;
+  }
+}
+
+@media screen and (max-width: 479px) {
+  .div-block-6 {
+    padding-top: 40px;
+    padding-bottom: 40px;
+    -ms-grid-columns: 2.75fr;
+    grid-template-columns: 2.75fr;
+  }
+  .div-block-7 {
+    padding-top: 0px;
+    padding-bottom: 0px;
+  }
+}
+
+#w-node-5cb7ebdc8340-f9830568 {
+  -webkit-align-self: center;
+  -ms-flex-item-align: center;
+  -ms-grid-row-align: center;
+  align-self: center;
+}
+
+#w-node-c91ec94c0b68-f9830568 {
+  -webkit-align-self: center;
+  -ms-flex-item-align: center;
+  -ms-grid-row-align: center;
+  align-self: center;
+  -ms-grid-column-align: end;
+  justify-self: end;
+}
+
+@media screen and (max-width: 479px) {
+  #w-node-c91ec94c0b68-f9830568 {
+    -ms-grid-column-align: start;
+    justify-self: start;
+  }
+}
+
+@font-face {
+  font-family: 'National';
+  src: url('../fonts/National-Regular.otf') format('opentype');
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'National';
+  src: url('../fonts/National-Semibold.otf') format('opentype');
+  font-weight: 600;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'National';
+  src: url('../fonts/National-Bold.otf') format('opentype');
+  font-weight: 700;
+  font-style: normal;
+}
